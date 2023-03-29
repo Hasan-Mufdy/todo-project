@@ -5,31 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     
     <header>
-        <img width="50" src="Assets/LOGO.png" alt="Logo image">
-        <h1>ToDo</h1>
-        <ul>
-            <li><a href="index.html"> Home </a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <section class="logo">
+            <img width="50" src="Assets/LOGO.png" alt="Logo image" id="logo">
+            <h1>ToDo</h1>
+        </section>
+        <section class="navbar-buttons">
+            <ul>
+              <li><a href="index.html"> Home </a></li>
+              <li><a href="about.html">About</a></li>
+              </ul>
+        </section>
     </header>
     <br><br><br><br>
 <!-- ---------------------------------------------------------------- -->
     
     <main>
         <section id="user-info">
-            <img width="50" src="Assets/ProfilePic.png" alt="user profile picture">
+            <section id="user-picture">
+            <img id="profile-pic" width="50" src="Assets/ProfilePic.png" alt="user profile picture">
+            </section>
+            <section id="user-text-info">
             <p>name:</p>
             <p>age:</p>
             <p>description:</p>
             <p>phone number:</p>
             <p>Email:</p>
+            </section>
         </section>
         <br><br><br>
         <section id="info-forms">
+            <p id="before-forms">select your info:</p>
             <form action="about.html">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name"><br>
@@ -53,16 +65,19 @@
     <br><br><br><br>
 <!-- ---------------------------------------------------------------- -->
 
-    <footer>
-        <section id="footer-logo">
-        <h3>&copy; ToDo</h3>
-        </section>
-        <section id="contact-info">
-            <p>Contact us:</p>
-            <p>0096277545326xx</p>
-            <p>or send us an email at:</p>
-            <p>info@todo.example</p>
-        </section>
-    </footer>
+<footer>
+    <div id="footer-logo">
+    <h3>&copy; ToDo</h3>
+    </div>
+    <div id="contact-info-1">
+        <p>Contact us:</p>
+        <p>0096277545326xx</p>
+        
+    </div>
+    <div id="contact-info-2">
+        <p>or send us an email at:</p>
+        <p>info@todo.example</p>
+    </div>
+</footer>
 </body>
 </html>

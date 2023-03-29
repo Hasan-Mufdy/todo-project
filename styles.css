@@ -1,0 +1,135 @@
+*{
+    text-align: center;
+}
+
+header{
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(160, 160, 160);
+    display: flex;
+     */
+     /* margin: 0px; */
+     line-height: 25px;
+     padding: 20px 10%;
+     font-size: 2.5vw;
+ 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+      
+     background-color: rgb(160, 160, 160);
+}
+header li{
+    display: inline-block;
+    font-size: 2vw;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* nav{
+    float: right;
+} */
+nav ul li {
+    display: inline-block;
+    padding: 20px 10px;
+    font-family: 'Righteous', cursive;
+    margin-right: 30px;
+}
+h2{
+    font-size: 50px;
+}
+
+main{
+    /* min-height: 45vw; */
+    margin-top: 70px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+table{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* for completed and not completed tasks color: */
+.green-bg{
+    background-color: green;
+}
+.red-bg{
+    background-color: red;
+}
+/* ********************************************* */
+
+footer{
+    /* width: 100%;
+    position:fixed;
+    background-color: rgb(160, 160, 160);
+    display: flex;
+    min-height: 100vw; */
+    /* position: fixed; */
+    /* left: 0;
+    bottom: 0; */
+    /* width: 100%; */
+    background-color: rgb(160, 160, 160);
+    /* line-height: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
+    /* position: absolute; */
+}
+
+#contact-info-1, #contact-info-2{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    /* margin-top: 10px; */
+    /* display: flex;
+    flex-direction: column;
+    text-align: center; */
+}
+#footer-logo{
+    margin-left: 100px;
+}
+
+th {
+    padding: 10px 100px;
+}
+
+#user-info{
+    display: flex;
+    margin-left: 10px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+#user-picture{
+     margin-left: auto;
+     margin-right: auto;
+
+}
+#user-text-info{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    line-height: 50px;
+}
+#profile-pic{
+    width: 200px;
+    height: 200px;
+}
+#before-forms{
+    font-size: 40;
+    margin-bottom: 20px;
+}
