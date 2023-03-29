@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     
     <header>
-        <img width="50" src="Assets/LOGO.png" alt="Logo image">
-        <h1>ToDo</h1>
-        <ul>
-            <li><a href="index.html"> Home </a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <section class="logo">
+            <img width="50" src="Assets/LOGO.png" alt="Logo image" id="logo">
+            <h1>ToDo</h1>
+        </section>
+        <section class="navbar-buttons">
+            <ul>
+              <li><a href="index.html"> Home </a></li>
+              <li><a href="about.html">About</a></li>
+              </ul>
+        </section>
     </header>
     <br><br><br><br>
 <!-- ---------------------------------------------------------------- -->
@@ -29,15 +36,15 @@
             </tr>
             <tr>
                 <th>Study</th>
-                <th>Done</th>
+                <th class="green-bg">Done</th>
             </tr>
             <tr>
                 <th>Make a website</th>
-                <th>In progress</th>
+                <th class="red-bg">In progress</th>
             </tr>
             <tr>
                 <th>Do shopping</th>
-                <th>Not completed</th>
+                <th class="red-bg">Not completed</th>
             </tr>
         </table>
 
@@ -46,15 +53,18 @@
 <!-- ---------------------------------------------------------------- -->
 
     <footer>
-        <section id="footer-logo">
+        <div id="footer-logo">
         <h3>&copy; ToDo</h3>
-        </section>
-        <section id="contact-info">
+        </div>
+        <div id="contact-info-1">
             <p>Contact us:</p>
             <p>0096277545326xx</p>
+            
+        </div>
+        <div id="contact-info-2">
             <p>or send us an email at:</p>
             <p>info@todo.example</p>
-        </section>
+        </div>
     </footer>
 <!-- ---------------------------------------------------------------- -->
     <style>  
