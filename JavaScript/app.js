@@ -38,9 +38,18 @@ function fillArray(){
         arr.push("Have a license");
     }
 
-    console.log(arr);
+    // console.log(arr);
+    printArray(arr);
+
 
 }
+
+function printArray(finalArray){
+    for(let i = 0; i < finalArray.length; i++){
+        console.log(finalArray[i]);
+    }
+}
+
 
 
 function askForName(){
